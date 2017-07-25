@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -18,11 +18,11 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="o8U-ZI-obZ">
-                                <rect key="frame" x="136" y="28" width="102.5" height="72"/>
+                                <rect key="frame" x="156" y="28" width="103" height="72"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="J&amp;B's" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="12z-xc-ZOz">
                                         <rect key="frame" x="13" y="0.0" width="77" height="36"/>
@@ -31,7 +31,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fashion store" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3i3-iB-Ldd">
-                                        <rect key="frame" x="0.0" y="36" width="102.5" height="36"/>
+                                        <rect key="frame" x="0.0" y="36" width="103" height="36"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -39,26 +39,56 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="PWM-RY-HdY">
-                                <rect key="frame" x="8" y="130" width="359" height="214"/>
+                                <rect key="frame" x="8" y="130" width="398" height="213"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="camiseta-1" translatesAutoresizingMaskIntoConstraints="NO" id="DTl-e5-Yvv">
-                                        <rect key="frame" x="0.0" y="0.0" width="113" height="214"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="126" height="213"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="camiseta-2" translatesAutoresizingMaskIntoConstraints="NO" id="QXb-tj-kZv">
-                                        <rect key="frame" x="123" y="0.0" width="113" height="214"/>
+                                        <rect key="frame" x="136" y="0.0" width="126" height="213"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="camiseta-3" translatesAutoresizingMaskIntoConstraints="NO" id="G0c-iR-FsG">
-                                        <rect key="frame" x="246" y="0.0" width="113" height="214"/>
+                                        <rect key="frame" x="272" y="0.0" width="126" height="213"/>
                                     </imageView>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Eaf-mV-Rid">
+                                <rect key="frame" x="107" y="631" width="200" height="75"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yzr-QX-bTz">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="30"/>
+                                        <color key="backgroundColor" red="1" green="0.48866048607460932" blue="0.46370951517050296" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="Ugs-3o-60H"/>
+                                        </constraints>
+                                        <state key="normal" title="Register for free">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LLY-kS-UNT">
+                                        <rect key="frame" x="0.0" y="45" width="200" height="30"/>
+                                        <color key="backgroundColor" red="1" green="0.48866048610000001" blue="0.46370951519999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="3s1-1b-Cu8"/>
+                                            <constraint firstAttribute="width" constant="200" id="mZc-RG-oyt"/>
+                                        </constraints>
+                                        <state key="normal" title="Enter now">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
                                 </subviews>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Eaf-mV-Rid" secondAttribute="bottom" constant="30" id="3fL-bq-kDd"/>
+                            <constraint firstItem="Eaf-mV-Rid" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="505-2e-HIw"/>
                             <constraint firstItem="PWM-RY-HdY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7VO-ii-96a"/>
                             <constraint firstAttribute="trailing" secondItem="PWM-RY-HdY" secondAttribute="trailing" constant="8" id="JOE-6s-XzX"/>
                             <constraint firstItem="o8U-ZI-obZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dU9-s2-mR6"/>
-                            <constraint firstItem="PWM-RY-HdY" firstAttribute="top" secondItem="o8U-ZI-obZ" secondAttribute="bottom" constant="30" id="dee-ox-5gf"/>
+                            <constraint firstItem="PWM-RY-HdY" firstAttribute="top" secondItem="o8U-ZI-obZ" secondAttribute="bottom" constant="30" id="dee-ox-5gf">
+                                <variation key="heightClass=compact" constant="10"/>
+                            </constraint>
                             <constraint firstItem="PWM-RY-HdY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="8" id="hJ4-UF-q7f"/>
                             <constraint firstItem="o8U-ZI-obZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="xkM-0p-rXL"/>
                         </constraints>
@@ -70,8 +100,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="camiseta-1" width="221" height="214"/>
+        <image name="camiseta-1" width="220" height="213"/>
         <image name="camiseta-2" width="217" height="211"/>
-        <image name="camiseta-3" width="215" height="202"/>
+        <image name="camiseta-3" width="214" height="202"/>
     </resources>
 </document>
